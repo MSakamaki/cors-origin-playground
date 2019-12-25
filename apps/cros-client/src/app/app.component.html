@@ -6,3 +6,20 @@
   />
 </div>
 <div>Message: {{ hello$ | async | json }}</div>
+
+<div
+  style="
+cursor: pointer;
+margin: 8px;
+width: 250px;
+border-radius: 8px;
+padding: 8px 12px;
+background-color: blue;
+color: white;
+text-align: center;
+font-weight: bold;
+"
+  (click)="onPost()"
+>
+  TEST CROSS ORIGIN !
+</div>
