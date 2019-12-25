@@ -1,4 +1,4 @@
-# Cros Origin Test Playground
+# Cors Origin Playground
 
 ```sh
 # start
